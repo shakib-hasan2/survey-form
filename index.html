@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 id="title">Tell Me About Music</h1>
+    <p id="description">
+        this a survey where you can tell us about the music here you're inspired by
+    </p>
+    <!---------------------Start Form section--------------------------------------->
+    <form id="survey-form">
+
+        <!------------------------------Label----------------------------------------->
+        <label id="name-label"> <b>Name:</b></label>
+        <input type="text" name="name" id="name" required placeholder="Enter your name"><br>
+
+
+        <label id="email-label"> <b>Email:</b></label>
+        <input type="email" name="email" id="email" required placeholder="Enter your email"><br>
+
+        <label id="number-label"> <b>Number:</b></label>
+        <input type="number" name="number" id="number" min="0" max="10" required placeholder="Enter a number"><br>
+        <!------------------------------End label------------------------------------->
+
+
+        <!------------------------------Start Dropdown------------------------------->
+        <p><b>Guiters</b></p>
+        <select id="dropdown" name="guiters">
+            <option value="fender">Fender</option>
+            <option value="martin">Martin</option>
+            <option value="epiphone">Epiphone</option>
+            <option value="other">Other</option>
+        </select>
+        <!----------------------------End Dropdown----------------------------------->
+
+
+        <!------------------------------Start Checkbox----------------------------->
+        <br>
+        <p><b>1. On average, how many hours a day do you listen to music?</b></p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+        Less than an hour<br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        1-2 Hours<br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        3-4 Hours<br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        Over 4 Hours<br>
+
+        <p><b>2. What is your preferred music genre?</b></p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked> Pop<br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        Rok<br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        Electronic<br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        Non-Enlish Music(i.e. K-pop, Latin Pop)<br>
+
+        <!------------------------------End Checkbox------------------------------>
+
+        <br>
+        <p><b>Any comments or suggestions?</b></p>
+        <textarea name="" id="" placeholder="Enter Additonal Text....."></textarea>
+        <br>
+
+        
+
+        <!------------------------------Start Radio Buttons-------------------------->
+        <p><b>Gander</b></p>
+        <input type="radio" id="male" name="gender" value="male">Male<br>
+        <input type="radio" id="female" name="gender" value="female">Female<br>
+        <input type="radio" id="other" name="gender" value="other">Other
+        <br>
+        <!------------------------------End Radio Buttons-------------------------->
+        
+
+        <br>
+        <!-------------------------------------------------------------------------->
+        <input type="submit" id="submit">
+        <!-------------------------------------------------------------------------->
+
+   
+   
+    </form>
+    <!------------------------------End Form section---------------------------------->
+
+
+    <!-------------------------------------------------------------------------->
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-------------------------------------------------------------------------->
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    padding-left: 25%;
+    padding-right: 30%;
+
+}
+
+
+label {
+    font-size: 18px;
+    display: block;
+    padding-bottom: 10px;
+
+}
+
+input,
+textarea,
+select {
+    
+    
+}
+
+#name {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#email {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#number {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#submit {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+
+textarea {
+    width: 100%;
+    padding: -2.375rem;
+    min-height: 120px;
+    resize: vertical;
+}
+
+
+
+form {
+    background-color: aquamarine;
+    padding: 40px 40px 40px 40px;
+}
+
+input[type=checkbox]:not(old) + label,
+input[type=radio]:not(old) + label {
+    display: inline-block;
+    margin-left: -28px;
+    padding-left: 28px;
+}
+
+#button-area {
+    float: left;
+    background-color: aquamarine;
+    width: 50%;
+    height: 50%;
+}
